@@ -56,7 +56,8 @@ const Navbar = () => {
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link href='/'>
-          <a>
+          <h4 className='text-5xl italic font-bold text-cyan-800'>AE</h4>
+          {/* <a>
             <Image
               src={NavLogo}
               alt='/'
@@ -64,7 +65,7 @@ const Navbar = () => {
               height='50'
               className='cursor-pointer'
             />
-          </a>
+          </a> */}
         </Link>
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
