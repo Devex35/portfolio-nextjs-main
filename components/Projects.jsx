@@ -1,36 +1,36 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
-import propertyImg from '../public/assets/projects/property.jpg';
-import cryptoImg from '../public/assets/projects/crypto.jpg'
-import netflixImg from '../public/assets/projects/netflix.jpg'
-import twitchImg from '../public/assets/projects/twitch.jpg'
+import propertyImg from '../public/assets/projects/Howard.png';
+import cryptoImg from '../public/assets/projects/Pizzaria.png'
+import netflixImg from '../public/assets/projects/Blog.png'
+import twitchImg from '../public/assets/projects/Photo.png'
 import ProjectItem from './ProjectItem';
 import NewProjectItem from './NewProjectItem';
 
 
 const projects = [
   {
-    title: "Property finder",
-    image: "/assets/projects/property.jpg",
+    title: "Howard housing manufacturing",
+    image: "/assets/projects/Howard.png",
     projectURL: "/property",
-    tech: "Nextjs",
+    tech: "HTML anf CSS",
   },
   {
-    title: "Crypto App",
-    image: "/assets/projects/crypto.jpg",
+    title: "Namibias National Teachers Union",
+    image: "/assets/projects/Teacher.png",
     projectURL: "/crypto",
-    tech: "Nextjs",
+    tech: "HTML and CSS",
   },
   {
-    title: "Netflix clone",
-    image: "/assets/projects/netflix.jpg",
+    title: "Photography Website",
+    image: "/assets/projects/Photo.png",
     projectURL: "/netflix",
     tech: "Nextjs",
   },
   {
-    title: "Twitch UI",
-    image: "/assets/projects/twitch.jpg",
+    title: "Blog Website",
+    image: "/assets/projects/Blog.png",
     projectURL: "/twitch",
     tech: "Nextjs",
   }
