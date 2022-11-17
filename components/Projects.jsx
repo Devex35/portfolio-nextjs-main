@@ -45,8 +45,9 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-         {projects.map(p => (
+         {projects.map((p, i) => (
            <NewProjectItem
+           key={i}
            title={p.title}
            image={p.image}
            projectUrl={p.projectURL}
