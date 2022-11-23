@@ -19,13 +19,13 @@ const resume = () => {
         <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
           <h2 className='text-center'>Antonio </h2>
           <div className='flex'>
-            <a
+            {/* <a
               href='https://www.linkedin.com/in/clint-briley-50056920a/'
               target='_blank'
               rel='noreferrer'
             >
               <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
-            </a>
+            </a> */}
             <a
               href='https://github.com/Devex35'
               target='_blank'

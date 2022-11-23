@@ -22,9 +22,9 @@ const About = () => {
             needed. I believe that being a great developer is not using one
             specific language, but choosing the best tool for the job.
           </p>
-          <p className='py-2 text-gray-600'>
+          {/* <p className='py-2 text-gray-600'>
             I started web developement in 2013 managing and building multiple websites fot clients in my local area.
-          </p>
+          </p> */}
           <Link href='/#projects'>
             <p className='py-2 text-gray-600 underline cursor-pointer font-extrabold'>
               Check out some of my latest projects.
