@@ -73,10 +73,10 @@ const resume = () => {
             <span className='px-2'>|</span>Next JS
             <span className='px-2'>|</span>SQL
             {/* <span className='px-2'>|</span>NoSQL */}
-            <span className='px-2'>|</span>Redux
+            {/* <span className='px-2'>|</span>Redux */}
             <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
+            {/* <span className='px-2'>|</span> Firebase
+            <span className='px-2'>|</span> RESTAPI */}
           </p>
           {/* <p className='py-2'>
             <span className='font-bold'>Amazon Web Services</span>
@@ -129,7 +129,7 @@ const resume = () => {
           <p className='py-1 italic'>Full stack web developer intern (2022 - 2022 July)</p>
           <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
             <li>
-              I took the next step in my career at this point an d decided to try full stack development.
+              I took the next step in my career at this point and decided to try full stack development.
               The above mentioned company taught me a lot about this profession and what is expected from one 
               aspirering to be this type of developer.
             </li>

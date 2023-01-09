@@ -34,6 +34,12 @@ const projects = [
     projectURL: "/twitch",
     tech: "Nextjs",
   }
+  // {
+  //   title: "Property Website",
+  //   image: "/assets/projects/Blog.png",
+  //   projectURL: "/propertyagency",
+  //   tech: "Nextjs",
+  // }
 ]
 
 const Projects = () => {
